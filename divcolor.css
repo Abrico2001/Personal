@@ -1,0 +1,38 @@
+
+<style>
+
+
+.rating-bar-bg 
+{
+    width: auto;
+    background-color: #1a1a1a;
+    margin: 0.5em 0 0 1em;
+    border: 1px solid #090909;
+}
+.rating-bar-bg-overall
+{
+    width: auto;
+    background-color: #1a1a1a;
+    margin: 0.5em 0;
+    border: 1px solid #090909;
+}
+.rating-bar
+{
+    line-height: 2;
+    background-color: #3a8d24;
+    outline: none;
+    transition: all 1s linear 0s;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.rb-label {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 1px 0 #112a0a;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+}
+#overall 
+{
+    font-size: 1.25em;
+}
+</style>

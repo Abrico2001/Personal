@@ -1,0 +1,107 @@
+{
+  "PortaRicezione": 2500,
+  "EndpointInvio": 
+  [
+    {
+      "IP": "192.168.1.5",
+      "Porta": 2000
+    },
+    {
+      "IP": "192.168.1.10",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.20",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.30",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.40",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.50",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.60",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.70",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.80",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.90",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.120",
+      "Porta": 2100
+    },
+    {
+      "IP": "192.168.1.5",
+      "Porta": 2900
+    },
+    {
+      "IP": "192.168.1.5",
+      "Porta": 2100
+    }
+  ],
+  "Guasti": 
+  [
+    {
+      "Descrizione": "Ostacolo a 25 metri",
+      "Attivato": "SIMURAIL; SIMCOM; ACCID; OBSTACLENEAR",
+      "Disattivato": "SIMURAIL; SIMCOM; ACCID; OBSTACLENO"
+    },
+    {
+      "Descrizione": "Ostacolo a 50 metri",
+      "Attivato": "SIMURAIL; SIMCOM; ACCID; OBSTACLEFAR",
+      "Disattivato": "SIMURAIL; SIMCOM; ACCID; OBSTACLENO"
+    },
+    {
+      "Descrizione": "Urto e sobbalzo",
+      "Attivato": "SIMURAIL; SIMCOM; SYSTEM; SCRIPT; UrtoSobbalzo.23ms",
+      "Disattivato": ""
+    },
+    {
+      "Descrizione": "SCMT: Train trip",
+      "Attivato": "STRUME; SCMT; TRAINTRIP",
+      "Disattivato": ""
+    },
+    {
+      "Descrizione": "SCMT: Errore 37",
+      "Attivato": "STRUME; SCMT; ERRORE37",
+      "Disattivato": ""
+    },
+    {
+      "Descrizione": "Carrello frenato",
+      "Attivato": "SIMURAIL; SIMCOM; VEHICLE; FAIL; CURRENT; CARRFREN; ON",
+      "Disattivato": "SIMURAIL; SIMCOM; VEHICLE; FAIL; CURRENT; CARRFREN; OFF"
+    },
+    {
+      "Descrizione": "Avaria rubinetto elettronico",
+      "Attivato": "SIMURAIL; SIMCOM; VEHICLE; FAIL; CURRENT; BRAKELFAIL; ON",
+      "Disattivato": "SIMURAIL; SIMCOM; VEHICLE; FAIL; CURRENT; BRAKELFAIL; OFF"
+    },
+    {
+      "Descrizione": "Fuga aria da condotta",
+      "Attivato": "SIMURAIL; TRAM; CURRENT; COMBRKPERD1; 1",
+      "Disattivato": "SIMURAIL; TRAM; CURRENT; COMBRKPERD1; 0"
+    }
+  ],
+  "Scenari": [
+    {
+      "Nome": "Ferrara-Bologna",
+      "Parametri": "/area=bologna_ferrara /vehicle=TreNord_E464Vivalto /load /start /MAXIMIZE /NOBORDER /HIDEBAR"
+    }
+  ]
+}
